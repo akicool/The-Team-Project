@@ -1,0 +1,706 @@
+/**/ 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, b, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**/
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 84px;
+    background: #007765;
+    display: inline-block;
+    position: relative;
+}
+
+.logo {
+    padding: 20px 980px 18.96px 55.04px;
+}
+
+.the_problem {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 741px;
+    top: 28px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.the_problem:hover {
+    position: absolute;
+    width: 130px;
+    height: 29px;
+    left: 741px;
+    top: 28px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: skyblue;
+    text-decoration: none; 
+    transition: .2s;   
+}
+
+.spich {
+    position: absolute;
+    width: 7px;
+    height: 29px;
+    left: 878px;
+    top: 28px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.PiedPiperCoin {
+    position: absolute;
+    width: 154px;
+    height: 29px;
+    left: 893px;
+    top: 29px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.PiedPiperCoin:hover {
+    position: absolute;
+    width: 154px;
+    height: 29px;
+    left: 893px;
+    top: 29px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: skyblue;
+    text-decoration: none;
+    transition: .2s;    
+}
+
+.spich1 {
+    position: absolute;
+    width: 7px;
+    height: 29px;
+    left: 1055px;
+    top: 29px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.the_team {
+    position: absolute;
+    width: 96px;
+    height: 29px;
+    left: 1070px;
+    top: 29px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.the_team:hover {
+    position: absolute;
+    width: 96px;
+    height: 29px;
+    left: 1070px;
+    top: 29px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: skyblue;
+    text-decoration: none;
+    transition: .2s;    
+}
+
+.image{
+    position: absolute;
+    width: 100%;
+    height: 403px;
+    left: 0px;
+    top: 84px;
+    
+}
+
+.PiperNet_Is_Here {
+    position: absolute;
+    width: 1219px;
+    height: 83px;
+    left: 0px;
+    top: 244px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.The_Problem_image {
+    position: absolute;
+    width: 100%;
+    height: 719px;
+    left: 0px;
+    top: 487px;
+    
+    background: #EEEEEE;
+}
+
+.Text_TheProblem {
+    position: absolute;
+    width: 1107px;
+    height: 75px;
+    left: 55px;
+    top: 535px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    
+    text-align: center;
+    
+    color: #007765;   
+}
+
+.TextProblem {
+    position: absolute;
+    width: 1110px;
+    height: 488px;
+    left: 55px;
+    top: 626px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #000000;
+}
+
+.image_blue {
+    position: absolute;
+    width: 100%;
+    height: 483px;
+    left: 0px;
+    top: 1206px;
+}
+
+.text_image_blue {
+    position: absolute;
+    width: 893px;
+    height: 228px;
+    left: 163px;
+    top: 1334px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    
+    color: #FFFFFF;   
+}
+
+.PPC_bg {
+    position: absolute;
+    width: 100%;
+    height: 604px;
+    left: 0px;
+    top: 1689px;
+    
+    background: #FFFFFF;
+}
+
+.Introducing_PiedPiperCoin {
+    position: absolute;
+    width: 1110px;
+    height: 75px;
+    left: 55px;
+    top: 1737px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    
+    text-align: center;
+    
+    color: #007765;
+}
+
+.PPC_logo {
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 55px;
+    top: 1828px;    
+}
+
+.Text_Pied {
+    position: absolute;
+    width: 930px;
+    height: 110px;
+    left: 218px;
+    top: 1828px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #000000; 
+}
+
+
+.Text_Pied_bottom {
+    position: absolute;
+    width: 1110px;
+    height: 223px;
+    left: 55px;
+    top: 1978px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #000000;    
+}
+
+.bg_team {
+    position: absolute;
+    width: 100%;
+    height: 845px;
+    left: 0px;
+    top: 2293px;
+    
+    background: #EEEEEE;    
+}
+
+.The_team {
+    position: absolute;
+    width: 1110px;
+    height: 75px;
+    left: 55px;
+    top: 2341px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    
+    text-align: center;
+    
+    color: #007765;
+    
+}
+
+.richard {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 146px;
+    top: 2472px;
+    
+}
+
+.name_richard {
+    position: absolute;
+    width: 199px;
+    height: 29px;
+    left: 132px;
+    top: 2652px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    
+    color: #007765;
+        
+}
+
+.bio_richard {
+    position: absolute;
+    width: 122px;
+    height: 22px;
+    left: 170px;
+    top: 2681px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #000000;    
+}
+
+.dinesh {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 526px;
+    top: 2472px;    
+}
+
+.name_dinesh {
+    position: absolute;
+    width: 350px;
+    height: 29px;
+    left: 435px;
+    top: 2652px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #007765;
+    
+}
+
+.bio_dinesh {
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 435px;
+    top: 2681px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.bertram {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 906px;
+    top: 2472px;    
+}
+
+.name_bertram {
+    position: absolute;
+    width: 350px;
+    height: 29px;
+    left: 815px;
+    top: 2652px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #007765;    
+}
+
+.bio_bertram {
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 815px;
+    top: 2681px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.jared {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 146px;
+    top: 2785px;    
+}
+
+.name_jared {
+    position: absolute;
+    width: 350px;
+    height: 29px;
+    left: 55px;
+    top: 2965px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #007765;
+    
+}
+
+.bio_jared {
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 55px;
+    top: 2994px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #000000;
+    
+}
+
+.monica {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 526px;
+    top: 2785px;    
+}
+
+.name_monica {
+    position: absolute;
+    width: 350px;
+    height: 29px;
+    left: 435px;
+    top: 2965px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #007765;    
+}
+
+.bio_monica {
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 435px;
+    top: 2994px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #000000;    
+}
+
+.nelson {
+    position: absolute;
+    width: 168px;
+    height: 168px;
+    left: 906px;
+    top: 2785px;
+    
+}
+
+.name_nelson {
+    position: absolute;
+    width: 350px;
+    height: 29px;
+    left: 815px;
+    top: 2965px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    text-align: center;
+    
+    color: #007765;    
+}
+
+.bio_nelson {
+    position: absolute;
+    width: 350px;
+    height: 22px;
+    left: 815px;
+    top: 2994px;
+    
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #000000;   
+}
+
+.Rectangle_footer {
+    position: absolute;
+    width: 100%;
+    height: 176px;
+    left: 0px;
+    top: 3138px;
+    
+    background: #333333;    
+}
+
+.text_footer {
+    position: absolute;
+    width: 540px;
+    height: 64px;
+    left: 340px;
+    top: 3186px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #FFFFFF;    
+}
