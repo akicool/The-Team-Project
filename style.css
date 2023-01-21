@@ -51,7 +51,7 @@ table {
 }
 
 .container {
-    width: 100%;
+    width: 1519px;
     height: 84px;
     background: #007765;
     display: inline-block;
@@ -66,7 +66,7 @@ table {
     position: absolute;
     width: 130px;
     height: 29px;
-    left: 741px;
+    left: 971px;
     top: 28px;
     
     font-family: 'Roboto';
@@ -86,7 +86,7 @@ table {
     position: absolute;
     width: 130px;
     height: 29px;
-    left: 741px;
+    left: 971px;
     top: 28px;
     
     font-family: 'Roboto';
@@ -106,7 +106,7 @@ table {
     position: absolute;
     width: 7px;
     height: 29px;
-    left: 878px;
+    left: 1108px;
     top: 28px;
     
     font-family: 'Roboto';
@@ -126,7 +126,7 @@ table {
     position: absolute;
     width: 154px;
     height: 29px;
-    left: 893px;
+    left: 1123px;
     top: 29px;
     
     font-family: 'Roboto';
@@ -146,7 +146,7 @@ table {
     position: absolute;
     width: 154px;
     height: 29px;
-    left: 893px;
+    left: 1123px;
     top: 29px;
     
     font-family: 'Roboto';
@@ -166,7 +166,7 @@ table {
     position: absolute;
     width: 7px;
     height: 29px;
-    left: 1055px;
+    left: 1285px;
     top: 29px;
     
     font-family: 'Roboto';
@@ -185,7 +185,7 @@ table {
     position: absolute;
     width: 96px;
     height: 29px;
-    left: 1070px;
+    left: 1300px;
     top: 29px;
     
     font-family: 'Roboto';
@@ -205,7 +205,7 @@ table {
     position: absolute;
     width: 96px;
     height: 29px;
-    left: 1070px;
+    left: 1300px;
     top: 29px;
     
     font-family: 'Roboto';
@@ -223,7 +223,7 @@ table {
 
 .image{
     position: absolute;
-    width: 100%;
+    width: 1519px;
     height: 403px;
     left: 0px;
     top: 84px;
@@ -232,7 +232,7 @@ table {
 
 .PiperNet_Is_Here {
     position: absolute;
-    width: 1219px;
+    width: 1519px;
     height: 83px;
     left: 0px;
     top: 244px;
@@ -249,7 +249,7 @@ table {
 
 .The_Problem_image {
     position: absolute;
-    width: 100%;
+    width: 1519px;
     height: 719px;
     left: 0px;
     top: 487px;
@@ -259,9 +259,9 @@ table {
 
 .Text_TheProblem {
     position: absolute;
-    width: 1107px;
+    width: 1519px;
     height: 75px;
-    left: 55px;
+    left: 0px;
     top: 535px;
     
     font-family: 'Roboto';
@@ -279,7 +279,7 @@ table {
     position: absolute;
     width: 1110px;
     height: 488px;
-    left: 55px;
+    left: 250px;
     top: 626px;
     
     font-family: 'Roboto';
@@ -293,7 +293,7 @@ table {
 
 .image_blue {
     position: absolute;
-    width: 100%;
+    width: 1519px;
     height: 483px;
     left: 0px;
     top: 1206px;
@@ -301,9 +301,9 @@ table {
 
 .text_image_blue {
     position: absolute;
-    width: 893px;
+    width: 1123px;
     height: 228px;
-    left: 163px;
+    left: 165px;
     top: 1334px;
     
     font-family: 'Roboto';
@@ -318,7 +318,7 @@ table {
 
 .PPC_bg {
     position: absolute;
-    width: 100%;
+    width: 1519px;
     height: 604px;
     left: 0px;
     top: 1689px;
@@ -328,7 +328,7 @@ table {
 
 .Introducing_PiedPiperCoin {
     position: absolute;
-    width: 1110px;
+    width: 1340px;
     height: 75px;
     left: 55px;
     top: 1737px;
@@ -348,7 +348,7 @@ table {
     position: absolute;
     width: 115px;
     height: 115px;
-    left: 55px;
+    left: 255px;
     top: 1828px;    
 }
 
@@ -356,7 +356,7 @@ table {
     position: absolute;
     width: 930px;
     height: 110px;
-    left: 218px;
+    left: 418px;
     top: 1828px;
     
     font-family: 'Roboto';
@@ -373,7 +373,7 @@ table {
     position: absolute;
     width: 1110px;
     height: 223px;
-    left: 55px;
+    left: 255px;
     top: 1978px;
     
     font-family: 'Roboto';
@@ -387,7 +387,7 @@ table {
 
 .bg_team {
     position: absolute;
-    width: 100%;
+    width: 1519px;
     height: 845px;
     left: 0px;
     top: 2293px;
@@ -399,7 +399,7 @@ table {
     position: absolute;
     width: 1110px;
     height: 75px;
-    left: 55px;
+    left: 200px;
     top: 2341px;
     
     font-family: 'Roboto';
@@ -418,7 +418,7 @@ table {
     position: absolute;
     width: 168px;
     height: 168px;
-    left: 146px;
+    left: 291px;
     top: 2472px;
     
 }
@@ -427,7 +427,7 @@ table {
     position: absolute;
     width: 199px;
     height: 29px;
-    left: 132px;
+    left: 277px;
     top: 2652px;
     
     font-family: 'Roboto';
@@ -445,7 +445,7 @@ table {
     position: absolute;
     width: 122px;
     height: 22px;
-    left: 170px;
+    left: 315px;
     top: 2681px;
     
     font-family: 'Roboto';
@@ -461,7 +461,7 @@ table {
     position: absolute;
     width: 168px;
     height: 168px;
-    left: 526px;
+    left: 671px;
     top: 2472px;    
 }
 
@@ -469,7 +469,7 @@ table {
     position: absolute;
     width: 350px;
     height: 29px;
-    left: 435px;
+    left: 580px;
     top: 2652px;
     
     font-family: 'Roboto';
@@ -488,7 +488,7 @@ table {
     position: absolute;
     width: 350px;
     height: 22px;
-    left: 435px;
+    left: 580px;
     top: 2681px;
     
     font-family: 'Roboto';
@@ -506,7 +506,7 @@ table {
     position: absolute;
     width: 168px;
     height: 168px;
-    left: 906px;
+    left: 1051px;
     top: 2472px;    
 }
 
@@ -514,7 +514,7 @@ table {
     position: absolute;
     width: 350px;
     height: 29px;
-    left: 815px;
+    left: 960px;
     top: 2652px;
     
     font-family: 'Roboto';
@@ -532,7 +532,7 @@ table {
     position: absolute;
     width: 350px;
     height: 22px;
-    left: 815px;
+    left: 960px;
     top: 2681px;
     
     font-family: 'Roboto';
@@ -550,7 +550,7 @@ table {
     position: absolute;
     width: 168px;
     height: 168px;
-    left: 146px;
+    left: 291px;
     top: 2785px;    
 }
 
@@ -558,7 +558,7 @@ table {
     position: absolute;
     width: 350px;
     height: 29px;
-    left: 55px;
+    left: 200px;
     top: 2965px;
     
     font-family: 'Roboto';
@@ -577,7 +577,7 @@ table {
     position: absolute;
     width: 350px;
     height: 22px;
-    left: 55px;
+    left: 200px;
     top: 2994px;
     
     font-family: 'Roboto';
@@ -595,7 +595,7 @@ table {
     position: absolute;
     width: 168px;
     height: 168px;
-    left: 526px;
+    left: 671px;
     top: 2785px;    
 }
 
@@ -603,7 +603,7 @@ table {
     position: absolute;
     width: 350px;
     height: 29px;
-    left: 435px;
+    left: 580px;
     top: 2965px;
     
     font-family: 'Roboto';
@@ -621,7 +621,7 @@ table {
     position: absolute;
     width: 350px;
     height: 22px;
-    left: 435px;
+    left: 580px;
     top: 2994px;
     
     font-family: 'Roboto';
@@ -638,7 +638,7 @@ table {
     position: absolute;
     width: 168px;
     height: 168px;
-    left: 906px;
+    left: 1051px;
     top: 2785px;
     
 }
@@ -647,7 +647,7 @@ table {
     position: absolute;
     width: 350px;
     height: 29px;
-    left: 815px;
+    left: 960px;
     top: 2965px;
     
     font-family: 'Roboto';
@@ -665,7 +665,7 @@ table {
     position: absolute;
     width: 350px;
     height: 22px;
-    left: 815px;
+    left: 960px;
     top: 2994px;
     
     font-family: 'Roboto';
@@ -680,7 +680,7 @@ table {
 
 .Rectangle_footer {
     position: absolute;
-    width: 100%;
+    width: 1519px;
     height: 176px;
     left: 0px;
     top: 3138px;
@@ -692,7 +692,7 @@ table {
     position: absolute;
     width: 540px;
     height: 64px;
-    left: 340px;
+    left: 475px;
     top: 3186px;
     
     font-family: 'Roboto';
